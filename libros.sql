@@ -33,5 +33,3 @@ CREATE TABLE libros_lectores(
     FOREIGN KEY(id_lector) REFERENCES lectores(id_lector),
     FOREIGN KEY(cod_libro) REFERENCES libros(cod_libro)
 );
-
-
